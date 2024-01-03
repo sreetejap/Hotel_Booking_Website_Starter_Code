@@ -1,0 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav img {
+    height: 60px;
+    width: 60px;
+}
+
+#list-view img {
+    height: 200px;
+    width: 250px;
+}
+
+footer img {
+    height: 20px;
+    width: 22px;
+}

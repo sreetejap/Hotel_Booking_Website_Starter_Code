@@ -1,7 +1,19 @@
-span {
-    display: block;
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
-a {
-    display: block;
+nav img {
+    height: 60px;
+    width: 60px;
+}
+
+#city-images img {
+    height: 150px;
+    width: 150px;
+}
+
+footer img {
+    height: 20px;
+    width: 22px;
 }
