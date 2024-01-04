@@ -1,6 +1,12 @@
 body {
     width: 100vw;
     height: 100vh;
+    margin: 0px;
+    background: #e0e0e0;
+}
+
+nav {
+    background-color: rosybrown;
 }
 
 nav img {
@@ -8,12 +14,39 @@ nav img {
     width: 60px;
 }
 
+#radissonblu {
+    height: 500px;
+    width: 500px;
+}
+
+#hotel-parent {
+    display: flex;
+}
+
+#hotel {
+    width: 50%;
+    height: 20%;
+    background-color: rgb(132,136,139);
+    margin: 2% auto;
+    justify-content: center;
+}
+
+#info {
+    margin: 2%;
+}
+
+#tariff {
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
 footer img {
     height: 20px;
     width: 22px;
 }
 
-#radissonblu {
-    height: 500px;
-    width: 500px;
+footer {
+    background-color: rosybrown;
 }
