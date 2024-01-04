@@ -3,15 +3,33 @@ body {
     height: 100vh;
     margin: 0px;
     background: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
     background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 2%;
+    color: #020;
 }
 
 nav img {
     height: 60px;
     width: 60px;
+}
+
+#radissonblu {
+    height: 500px;
+    width: 500px;
+    margin: 2% 4% 0% 4%;
 }
 
 form {
@@ -29,10 +47,26 @@ footer img {
 
 footer {
     background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    bottom: 0px;
 }
 
-#radissonblu {
-    height: 500px;
-    width: 500px;
-    margin: 2% 4% 0% 4%;
+#social {
+    min-width: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 2%;
+    color: #020;
+}
+
+#copyright {
+    font-size: 10px;
+    align-self: flex-end;
+    padding: 3px;
 }
