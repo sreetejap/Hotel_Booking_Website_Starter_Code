@@ -13,41 +13,67 @@
   <body>
     <div>
       <nav>
-        <a href="./index.html"
+        <a href="./index.html" id="home"
           ><img src="./assests/images/logo.png" alt="logo"
         /></a>
 
         <a href="./login.html">Login</a>
       </nav>
       <div>
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-          alt="radissonblu"
-          id="radissonblu"
-        />
-        <form action="./payment.html">
-          <label for="adults">Adults: </label>
-          <input type="number" name="adults" min="1" required />
-          <br />
-          <label for="name">Name: </label>
-          <input type="text" name="name" autocomplete="off" required />
-          <br />
-          <label for="fromdate">From Date: </label>
-          <input type="date" name="fromdate" required />
-          <br />
-          <label for="todate">To Date: </label>
-          <input type="date" name="todate" required />
-          <br />
-          <label for="total">Total: </label>
-          <input type="text" name="total" disabled required />
-          <br />
-          <button type="submit">Book Now</button>
-        </form>
+        <div id="grid-container">
+          <div id="grid-item1">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+              alt="radissonblu"
+              id="radissonblu"
+            />
+          </div>
+          <div id="grid-item2">
+            <form action="./payment.html">
+              <div id="subgriditem1"><label for="adults">Adults: </label></div>
+
+              <div id="subgriditem2">
+                <input type="number" name="adults" min="1" required />
+              </div>
+
+              <div id="subgriditem3"><label for="name">Name: </label></div>
+
+              <div id="subgriditem4">
+                <input type="text" name="name" autocomplete="off" required />
+              </div>
+
+              <div id="subgriditem5">
+                <label for="fromdate">From Date: </label>
+              </div>
+
+              <div id="subgriditem6">
+                <input type="date" name="fromdate" required />
+              </div>
+
+              <div id="subgriditem7"><label for="todate">To Date: </label></div>
+
+              <div id="subgriditem8">
+                <input type="date" name="todate" required />
+              </div>
+
+              <div id="subgriditem9"><label for="total">Total: </label></div>
+
+              <div id="subgriditem10">
+                <input type="text" name="total" disabled required />
+              </div>
+
+              <div id="subgriditem11">
+                <button type="submit">Book Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
         <section id="details">
           <h2>Radisson Blu Hotel</h2>
-          <p>RATING</p>
+          <h5>RATING</h5>
           <p>5 STAR</p>
-          <p>AMENITIES</p>
+          <h5>AMENITIES</h5>
           <ul>
             <li>Room Service</li>
             <li>Restaurant</li>
