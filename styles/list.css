@@ -15,8 +15,8 @@ nav {
   top: 0px;
 }
 
-nav a {
-  text-decoration: none;
+nav button {
+  /* text-decoration: none; */
   margin-right: 2%;
   color: #020;
 }
@@ -30,7 +30,7 @@ nav img {
   width: 60px;
 }
 
-ul {
+/* ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,10 @@ li a {
   text-decoration: none;
   color: #020;
   font-weight: 700;
+} */
+
+div#content-div {
+  min-height: 90vh;
 }
 
 #list-view {
@@ -65,6 +69,10 @@ li a {
   background-color: lightgrey;
 }
 
+#list-view div:hover {
+  background-color: rosybrown;
+}
+
 div#special {
   margin-left: 90px;
 }
@@ -78,6 +86,10 @@ div#special {
   justify-content: space-between;
 }
 
+#list-view a div.hotelinfo:hover {
+  background-color: rosybrown;
+}
+
 #list-view a {
   margin: 2%;
   width: 40%;
@@ -86,15 +98,19 @@ div#special {
   color: #020;
 }
 
+#list-view a:hover {
+  background-color: rosybrown;
+}
+
 .hotelinfo {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#map-view {
+/* #map-view {
   display: none;
-}
+} */
 
 footer img {
   height: 20px;
@@ -115,10 +131,10 @@ footer {
   min-width: 100px;
 }
 
-footer a {
-  text-decoration: none;
+footer button {
+  /* text-decoration: none; */
   margin-left: 2%;
-  color: #020;
+  /* color: #020; */
 }
 
 #copyright {

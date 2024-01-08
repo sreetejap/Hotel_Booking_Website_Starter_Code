@@ -1,21 +1,39 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
 }
 
 #parent {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #loader {
-    height: 70px;
-    width: 70px;
-    border: 12px solid #f3f3f3;
-    border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  animation: 1s linear infinite loader;
+}
+
+@keyframes loader {
+  0% {
     border-top: 12px solid #444444;
+  }
+
+  33% {
+    border-right: 12px solid #444444;
+  }
+
+  66% {
+    border-bottom: 12px solid #444444;
+  }
+
+  100% {
+    border-left: 12px solid #444444;
+  }
 }

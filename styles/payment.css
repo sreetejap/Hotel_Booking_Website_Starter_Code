@@ -15,8 +15,8 @@ nav {
   top: 0px;
 }
 
-nav a {
-  text-decoration: none;
+nav button {
+  /* text-decoration: none; */
   margin-right: 2%;
   color: #020;
 }
@@ -28,6 +28,10 @@ nav a {
 nav img {
   height: 60px;
   width: 60px;
+}
+
+div#content-div {
+  min-height: 90vh;
 }
 
 #radissonblu {
@@ -100,10 +104,10 @@ footer {
   min-width: 100px;
 }
 
-footer a {
-  text-decoration: none;
+footer button {
+  /* text-decoration: none; */
   margin-left: 2%;
-  color: #020;
+  /* color: #020; */
 }
 
 #copyright {

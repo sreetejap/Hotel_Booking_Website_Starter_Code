@@ -15,8 +15,8 @@ nav {
   top: 0px;
 }
 
-nav a {
-  text-decoration: none;
+nav button {
+  /* text-decoration: none; */
   margin-right: 2%;
   color: #020;
 }
@@ -59,7 +59,7 @@ nav img {
   margin: 20px;
 }
 
-form {
+#formdetail {
   height: 100%;
   width: 100%;
   margin: 0 20px;
@@ -167,10 +167,10 @@ footer {
   min-width: 100px;
 }
 
-footer a {
-  text-decoration: none;
+footer button {
+  /* text-decoration: none; */
   margin-left: 2%;
-  color: #020;
+  /* color: #020; */
 }
 
 #copyright {
