@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/detail.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
@@ -95,11 +99,59 @@
       <div>
         <div id="grid-container">
           <div id="grid-item1">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-              alt="radissonblu"
-              id="radissonblu"
-            />
+            <div
+              id="radissonhotelCarousal"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    alt="radissonblu"
+                    id="radissonblu"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg"
+                    alt="radissonblu"
+                    id="radissonblu"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg"
+                    alt="radissonblu"
+                    id="radissonblu"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#radissonhotelCarousal"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#radissonhotelCarousal"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div id="grid-item2">
             <form action="./payment.html" id="formdetail">
@@ -147,7 +199,11 @@
         <section id="details">
           <h2>Radisson Blu Hotel</h2>
           <h5>RATING</h5>
-          <p>5 STAR</p>
+          <i class="fa-solid fa-star" style="color: gold"></i>
+          <i class="fa-solid fa-star" style="color: gold"></i>
+          <i class="fa-solid fa-star" style="color: gold"></i>
+          <i class="fa-solid fa-star" style="color: gold"></i>
+          <i class="fa-solid fa-star" style="color: gold"></i>
           <h5>AMENITIES</h5>
           <ul>
             <li>Room Service</li>

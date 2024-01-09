@@ -63,18 +63,29 @@ div#content-div {
   width: 250px;
 }
 
-#list-view div {
+#list-view div.hotelinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 2%;
   width: 40%;
   background-color: lightgrey;
 }
 
-#list-view div:hover {
+#list-view div.hotelinfo:hover {
   background-color: rosybrown;
 }
 
 div#special {
-  margin-left: 90px;
+  margin-left: 25%;
+}
+
+div.taj {
+  margin-right: 25%;
+}
+
+div.lalit {
+  margin-right: 10%;
 }
 
 #list-view a div.hotelinfo {
@@ -102,11 +113,11 @@ div#special {
   background-color: rosybrown;
 }
 
-.hotelinfo {
+/* .hotelinfo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 /* #map-view {
   display: none;
